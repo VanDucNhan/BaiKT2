@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrangChiTietActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_arrow_left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/img_mota"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên Thường gọi: "
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txt_motatenca"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:text="tên cá"
+                android:textColor="#25BDB8"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Khoa Học: "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_motatenkhoahoc"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#25BDB8"
+            android:text="ten khoa hoc"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đặc Tính: "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txt_motadactinh"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dac tinh"
+            android:textSize="30sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên màu sắc: "
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/txt_motamausac"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mau ca"
+            android:textSize="30sp" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

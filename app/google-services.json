@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263408778069",
+    "project_id": "baikt2-70e37",
+    "storage_bucket": "baikt2-70e37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263408778069:android:1056a676cc10c24c944ddc",
+        "android_client_info": {
+          "package_name": "com.google.baikt2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263408778069-u8cgp2su3mbufuunbmugetv39r3ibo15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GdZFBmh4GpfrV2ibldWIQBWz8UgTVLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263408778069-u8cgp2su3mbufuunbmugetv39r3ibo15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
